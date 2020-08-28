@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB2D78324F9B0C500B9880F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D78224F9B0C500B9880F /* AppDelegate.swift */; };
+		DFB2D78524F9B0C500B9880F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D78424F9B0C500B9880F /* SceneDelegate.swift */; };
+		DFB2D78724F9B0C500B9880F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D78624F9B0C500B9880F /* ViewController.swift */; };
+		DFB2D78A24F9B0C500B9880F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB2D78824F9B0C500B9880F /* Main.storyboard */; };
+		DFB2D78C24F9B0C800B9880F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB2D78B24F9B0C800B9880F /* Assets.xcassets */; };
+		DFB2D78F24F9B0C800B9880F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB2D78D24F9B0C800B9880F /* LaunchScreen.storyboard */; };
+		DFB2D79A24F9B0C800B9880F /* Ionix_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D79924F9B0C800B9880F /* Ionix_TestTests.swift */; };
+		DFB2D7A524F9B0C800B9880F /* Ionix_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D7A424F9B0C800B9880F /* Ionix_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB2D79624F9B0C800B9880F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB2D77724F9B0C500B9880F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB2D77E24F9B0C500B9880F;
+			remoteInfo = "Ionix Test";
+		};
+		DFB2D7A124F9B0C800B9880F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB2D77724F9B0C500B9880F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB2D77E24F9B0C500B9880F;
+			remoteInfo = "Ionix Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB2D77F24F9B0C500B9880F /* Ionix Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ionix Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2D78224F9B0C500B9880F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB2D78424F9B0C500B9880F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFB2D78624F9B0C500B9880F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB2D78924F9B0C500B9880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB2D78B24F9B0C800B9880F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB2D78E24F9B0C800B9880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB2D79024F9B0C800B9880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB2D79524F9B0C800B9880F /* Ionix TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ionix TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2D79924F9B0C800B9880F /* Ionix_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ionix_TestTests.swift; sourceTree = "<group>"; };
+		DFB2D79B24F9B0C800B9880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB2D7A024F9B0C800B9880F /* Ionix TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ionix TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2D7A424F9B0C800B9880F /* Ionix_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ionix_TestUITests.swift; sourceTree = "<group>"; };
+		DFB2D7A624F9B0C800B9880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB2D77C24F9B0C500B9880F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2D79224F9B0C800B9880F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2D79D24F9B0C800B9880F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB2D77624F9B0C500B9880F = {
+			isa = PBXGroup;
+			children = (
+				DFB2D78124F9B0C500B9880F /* Ionix Test */,
+				DFB2D79824F9B0C800B9880F /* Ionix TestTests */,
+				DFB2D7A324F9B0C800B9880F /* Ionix TestUITests */,
+				DFB2D78024F9B0C500B9880F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB2D78024F9B0C500B9880F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2D77F24F9B0C500B9880F /* Ionix Test.app */,
+				DFB2D79524F9B0C800B9880F /* Ionix TestTests.xctest */,
+				DFB2D7A024F9B0C800B9880F /* Ionix TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB2D78124F9B0C500B9880F /* Ionix Test */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2D78224F9B0C500B9880F /* AppDelegate.swift */,
+				DFB2D78424F9B0C500B9880F /* SceneDelegate.swift */,
+				DFB2D78624F9B0C500B9880F /* ViewController.swift */,
+				DFB2D78824F9B0C500B9880F /* Main.storyboard */,
+				DFB2D78B24F9B0C800B9880F /* Assets.xcassets */,
+				DFB2D78D24F9B0C800B9880F /* LaunchScreen.storyboard */,
+				DFB2D79024F9B0C800B9880F /* Info.plist */,
+			);
+			path = "Ionix Test";
+			sourceTree = "<group>";
+		};
+		DFB2D79824F9B0C800B9880F /* Ionix TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2D79924F9B0C800B9880F /* Ionix_TestTests.swift */,
+				DFB2D79B24F9B0C800B9880F /* Info.plist */,
+			);
+			path = "Ionix TestTests";
+			sourceTree = "<group>";
+		};
+		DFB2D7A324F9B0C800B9880F /* Ionix TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2D7A424F9B0C800B9880F /* Ionix_TestUITests.swift */,
+				DFB2D7A624F9B0C800B9880F /* Info.plist */,
+			);
+			path = "Ionix TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB2D77E24F9B0C500B9880F /* Ionix Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB2D7A924F9B0C800B9880F /* Build configuration list for PBXNativeTarget "Ionix Test" */;
+			buildPhases = (
+				DFB2D77B24F9B0C500B9880F /* Sources */,
+				DFB2D77C24F9B0C500B9880F /* Frameworks */,
+				DFB2D77D24F9B0C500B9880F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ionix Test";
+			productName = "Ionix Test";
+			productReference = DFB2D77F24F9B0C500B9880F /* Ionix Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB2D79424F9B0C800B9880F /* Ionix TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB2D7AC24F9B0C800B9880F /* Build configuration list for PBXNativeTarget "Ionix TestTests" */;
+			buildPhases = (
+				DFB2D79124F9B0C800B9880F /* Sources */,
+				DFB2D79224F9B0C800B9880F /* Frameworks */,
+				DFB2D79324F9B0C800B9880F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB2D79724F9B0C800B9880F /* PBXTargetDependency */,
+			);
+			name = "Ionix TestTests";
+			productName = "Ionix TestTests";
+			productReference = DFB2D79524F9B0C800B9880F /* Ionix TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFB2D79F24F9B0C800B9880F /* Ionix TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB2D7AF24F9B0C800B9880F /* Build configuration list for PBXNativeTarget "Ionix TestUITests" */;
+			buildPhases = (
+				DFB2D79C24F9B0C800B9880F /* Sources */,
+				DFB2D79D24F9B0C800B9880F /* Frameworks */,
+				DFB2D79E24F9B0C800B9880F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB2D7A224F9B0C800B9880F /* PBXTargetDependency */,
+			);
+			name = "Ionix TestUITests";
+			productName = "Ionix TestUITests";
+			productReference = DFB2D7A024F9B0C800B9880F /* Ionix TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB2D77724F9B0C500B9880F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Gov Elo Works";
+				TargetAttributes = {
+					DFB2D77E24F9B0C500B9880F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DFB2D79424F9B0C800B9880F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DFB2D77E24F9B0C500B9880F;
+					};
+					DFB2D79F24F9B0C800B9880F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DFB2D77E24F9B0C500B9880F;
+					};
+				};
+			};
+			buildConfigurationList = DFB2D77A24F9B0C500B9880F /* Build configuration list for PBXProject "Ionix Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB2D77624F9B0C500B9880F;
+			productRefGroup = DFB2D78024F9B0C500B9880F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB2D77E24F9B0C500B9880F /* Ionix Test */,
+				DFB2D79424F9B0C800B9880F /* Ionix TestTests */,
+				DFB2D79F24F9B0C800B9880F /* Ionix TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB2D77D24F9B0C500B9880F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2D78F24F9B0C800B9880F /* LaunchScreen.storyboard in Resources */,
+				DFB2D78C24F9B0C800B9880F /* Assets.xcassets in Resources */,
+				DFB2D78A24F9B0C500B9880F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2D79324F9B0C800B9880F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2D79E24F9B0C800B9880F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB2D77B24F9B0C500B9880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2D78724F9B0C500B9880F /* ViewController.swift in Sources */,
+				DFB2D78324F9B0C500B9880F /* AppDelegate.swift in Sources */,
+				DFB2D78524F9B0C500B9880F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2D79124F9B0C800B9880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2D79A24F9B0C800B9880F /* Ionix_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2D79C24F9B0C800B9880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2D7A524F9B0C800B9880F /* Ionix_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB2D79724F9B0C800B9880F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB2D77E24F9B0C500B9880F /* Ionix Test */;
+			targetProxy = DFB2D79624F9B0C800B9880F /* PBXContainerItemProxy */;
+		};
+		DFB2D7A224F9B0C800B9880F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB2D77E24F9B0C500B9880F /* Ionix Test */;
+			targetProxy = DFB2D7A124F9B0C800B9880F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB2D78824F9B0C500B9880F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB2D78924F9B0C500B9880F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB2D78D24F9B0C800B9880F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB2D78E24F9B0C800B9880F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB2D7A724F9B0C800B9880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB2D7A824F9B0C800B9880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB2D7AA24F9B0C800B9880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY74325BLM;
+				INFOPLIST_FILE = "Ionix Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "works.elo.gov.Ionix-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB2D7AB24F9B0C800B9880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY74325BLM;
+				INFOPLIST_FILE = "Ionix Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "works.elo.gov.Ionix-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFB2D7AD24F9B0C800B9880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY74325BLM;
+				INFOPLIST_FILE = "Ionix TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "works.elo.gov.Ionix-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ionix Test.app/Ionix Test";
+			};
+			name = Debug;
+		};
+		DFB2D7AE24F9B0C800B9880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY74325BLM;
+				INFOPLIST_FILE = "Ionix TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "works.elo.gov.Ionix-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ionix Test.app/Ionix Test";
+			};
+			name = Release;
+		};
+		DFB2D7B024F9B0C800B9880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY74325BLM;
+				INFOPLIST_FILE = "Ionix TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "works.elo.gov.Ionix-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ionix Test";
+			};
+			name = Debug;
+		};
+		DFB2D7B124F9B0C800B9880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY74325BLM;
+				INFOPLIST_FILE = "Ionix TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "works.elo.gov.Ionix-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ionix Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB2D77A24F9B0C500B9880F /* Build configuration list for PBXProject "Ionix Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2D7A724F9B0C800B9880F /* Debug */,
+				DFB2D7A824F9B0C800B9880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB2D7A924F9B0C800B9880F /* Build configuration list for PBXNativeTarget "Ionix Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2D7AA24F9B0C800B9880F /* Debug */,
+				DFB2D7AB24F9B0C800B9880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB2D7AC24F9B0C800B9880F /* Build configuration list for PBXNativeTarget "Ionix TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2D7AD24F9B0C800B9880F /* Debug */,
+				DFB2D7AE24F9B0C800B9880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB2D7AF24F9B0C800B9880F /* Build configuration list for PBXNativeTarget "Ionix TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2D7B024F9B0C800B9880F /* Debug */,
+				DFB2D7B124F9B0C800B9880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB2D77724F9B0C500B9880F /* Project object */;
+}
