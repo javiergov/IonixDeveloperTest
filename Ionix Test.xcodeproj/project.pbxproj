@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF90A78624FC5262008A70F7 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90A78424FC5262008A70F7 /* StartingViewController.swift */; };
+		DF90A78724FC5262008A70F7 /* StartingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF90A78524FC5262008A70F7 /* StartingViewController.xib */; };
 		DFB2D78324F9B0C500B9880F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D78224F9B0C500B9880F /* AppDelegate.swift */; };
 		DFB2D78524F9B0C500B9880F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D78424F9B0C500B9880F /* SceneDelegate.swift */; };
 		DFB2D78724F9B0C500B9880F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2D78624F9B0C500B9880F /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF90A78424FC5262008A70F7 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		DF90A78524FC5262008A70F7 /* StartingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartingViewController.xib; sourceTree = "<group>"; };
 		DFB2D77F24F9B0C500B9880F /* Ionix Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ionix Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB2D78224F9B0C500B9880F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFB2D78424F9B0C500B9880F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				DFB2D78B24F9B0C800B9880F /* Assets.xcassets */,
 				DFB2D78D24F9B0C800B9880F /* LaunchScreen.storyboard */,
 				DFB2D79024F9B0C800B9880F /* Info.plist */,
+				DF90A78424FC5262008A70F7 /* StartingViewController.swift */,
+				DF90A78524FC5262008A70F7 /* StartingViewController.xib */,
 			);
 			path = "Ionix Test";
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				DFB2D78F24F9B0C800B9880F /* LaunchScreen.storyboard in Resources */,
 				DFB2D78C24F9B0C800B9880F /* Assets.xcassets in Resources */,
+				DF90A78724FC5262008A70F7 /* StartingViewController.xib in Resources */,
 				DFB2D78A24F9B0C500B9880F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				DFB2D78724F9B0C500B9880F /* ViewController.swift in Sources */,
 				DFB2D78324F9B0C500B9880F /* AppDelegate.swift in Sources */,
+				DF90A78624FC5262008A70F7 /* StartingViewController.swift in Sources */,
 				DFB2D78524F9B0C500B9880F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
