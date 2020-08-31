@@ -9,22 +9,53 @@
 import UIKit
 
 class StartingViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func gridButtonAction(_ sender: UIButton) {
+        var buttonName: String
+        switch sender.tag {
+        case 0:
+            buttonName = "easy payment"
+            requestUserIdentification()
+        case 1:
+            buttonName = "gas stations"
+        case 2:
+            buttonName = "my route"
+        case 3:
+            buttonName = "my benefits"
+        case 4:
+            buttonName = "messages"
+        case 5:
+            buttonName = "settings"
+        default:
+            buttonName = "unknown"
+        }
+        
+        print(" did touch button: " + buttonName)
     }
-    */
-
+    
+    func requestUserIdentification() {
+        let idAlert = UIAlertController(title: "Se solicita identificación",
+                                        message: "Por favor ingrese su RUT", preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "Cancelar", style: .cancel)
+        let comply = UIAlertAction(title: "Aceptar", style: .default) { [weak idAlert] (action) in
+            guard
+                let alertController = idAlert,
+                let fields = alertController.textFields,
+                let textField = fields.first else {
+                return
+            }
+            print(" user did comply, and wrote this: \(textField.text ?? "nothing")")
+        }
+        idAlert.addAction(comply)
+        idAlert.addAction(cancel)
+        idAlert.addTextField { textField in
+            textField.keyboardType = .numbersAndPunctuation
+        }
+        present(idAlert, animated: true) {
+            print(" did present alert")
+        }
+    }
 }

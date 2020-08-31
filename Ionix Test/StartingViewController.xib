@@ -41,6 +41,9 @@
                                                     <integer key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="gridButtonAction:" destination="-1" eventType="touchUpInside" id="NjR-hg-KqU"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pago Fácil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wDp-w6-HzN">
                                             <rect key="frame" x="27" y="80.5" width="64.5" height="17"/>
@@ -69,7 +72,7 @@
                                 <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5l-k4-T6T">
                                     <rect key="frame" x="126.5" y="0.0" width="119" height="118.5"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNW-vb-DQd">
+                                        <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNW-vb-DQd">
                                             <rect key="frame" x="34.5" y="13.5" width="50" height="50.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="UNW-vb-DQd" secondAttribute="height" multiplier="1:1" id="8C7-5W-OCY"/>
@@ -81,6 +84,9 @@
                                                     <integer key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="gridButtonAction:" destination="-1" eventType="touchUpInside" id="pdO-Lm-Nff"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estaciones de servicio" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TLK-iA-RYP">
                                             <rect key="frame" x="23.5" y="72" width="72.5" height="33.5"/>
@@ -109,7 +115,7 @@
                                 <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWk-fl-Me6">
                                     <rect key="frame" x="253.5" y="0.0" width="118.5" height="118.5"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqg-qS-YOe">
+                                        <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqg-qS-YOe">
                                             <rect key="frame" x="34" y="22" width="50.5" height="50.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="Jqg-qS-YOe" secondAttribute="height" multiplier="1:1" id="r8l-dA-3Xf"/>
@@ -121,6 +127,9 @@
                                                     <integer key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="gridButtonAction:" destination="-1" eventType="touchUpInside" id="fvw-J4-t1n"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi Ruta" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MC1-QM-dhM">
                                             <rect key="frame" x="35" y="80.5" width="48" height="17"/>
@@ -158,7 +167,7 @@
                                 <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71p-Ez-rbK">
                                     <rect key="frame" x="0.0" y="0.0" width="118.5" height="118.5"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTO-nm-Oc5">
+                                        <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTO-nm-Oc5">
                                             <rect key="frame" x="34" y="22" width="50.5" height="50.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="VTO-nm-Oc5" secondAttribute="height" multiplier="1:1" id="gwl-nt-orc"/>
@@ -170,6 +179,9 @@
                                                     <integer key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="gridButtonAction:" destination="-1" eventType="touchUpInside" id="7vf-Bg-B3P"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis Beneficios" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7SL-pJ-WP1">
                                             <rect key="frame" x="13.5" y="80.5" width="92" height="17"/>
@@ -198,7 +210,7 @@
                                 <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rOx-4S-zoJ">
                                     <rect key="frame" x="126.5" y="0.0" width="119" height="118.5"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8E-gw-nx2">
+                                        <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8E-gw-nx2">
                                             <rect key="frame" x="34.5" y="22" width="50" height="50.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="f8E-gw-nx2" secondAttribute="height" multiplier="1:1" id="AJN-ba-Lep"/>
@@ -210,6 +222,9 @@
                                                     <integer key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="gridButtonAction:" destination="-1" eventType="touchUpInside" id="d7x-yB-L5D"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mensajes [0]" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e56-6x-5vK">
                                             <rect key="frame" x="18" y="80.5" width="83" height="17"/>
@@ -238,7 +253,7 @@
                                 <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ld-BE-3TB">
                                     <rect key="frame" x="253.5" y="0.0" width="118.5" height="118.5"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzu-3R-Wga">
+                                        <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzu-3R-Wga">
                                             <rect key="frame" x="34" y="22" width="50.5" height="50.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="Dzu-3R-Wga" secondAttribute="height" multiplier="1:1" id="lf2-fQ-tab"/>
@@ -250,6 +265,9 @@
                                                     <integer key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="gridButtonAction:" destination="-1" eventType="touchUpInside" id="0s9-5J-ISY"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Configuración" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8q8-Lo-3TI">
                                             <rect key="frame" x="14.5" y="80.5" width="89.5" height="17"/>
